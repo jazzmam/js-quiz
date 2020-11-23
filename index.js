@@ -1,1 +1,1 @@
-console.log("trissssal");
+console.log("tir");
