@@ -26,7 +26,7 @@ body {
   max-width: 80%;
   background-color: #3D405B;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.5);
   color: #fff;
 }
@@ -40,13 +40,38 @@ body {
 
 .btn {
   background-color: #81B29A;
+  color: #fff;
   border-radius: 5px;
   padding: 5px 10px;
   margin: 5px;
   box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Raleway", sans-serif;
 }
 .btn:hover {
   border-color: #fff;
+}
+.btn .correct {
+  background-color: #F4F1DE;
+}
+.btn .wrong {
+  background-color: #F2CC8F;
+}
+
+.start-btn, .next-btn {
+  background-color: #E07A5F;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
