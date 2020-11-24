@@ -11,24 +11,23 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Lato", Calibri, Arial, sans-serif;
-  background-color: #F4F1DE;
+  background-color: #fff;
 }
 body.correct {
-  background-color: #81B29A;
+  background-color: #9e54bd;
 }
 body.wrong {
-  background-color: #E07A5F;
+  background-color: #f06060;
 }
 
 .container {
-  width: 800px;
-  max-width: 80%;
-  background-color: #3D405B;
+  width: 1200px;
+  background-color: #0e83cd;
   border-radius: 5px;
   padding: 20px;
   font-weight: 700;
   font-size: 1em;
-  box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.2);
   color: #fff;
 }
 
@@ -40,16 +39,14 @@ body.wrong {
 }
 
 .btn {
-  background-color: #81B29A;
+  background-color: inherit;
   color: inherit;
-  border-radius: 5px;
   padding: 25px 35px;
   margin: 15px 10px;
-  box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.1);
+  border: 3px solid #fff;
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
-  border: 3px solid #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.3s;
@@ -59,10 +56,10 @@ body.wrong {
   border-color: #fff;
 }
 .btn.correct {
-  background-color: #81B29A;
+  background-color: #9e54bd;
 }
 .btn.wrong {
-  background-color: #E07A5F;
+  background-color: #f06060;
 }
 
 .start-btn, .next-btn {
