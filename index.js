@@ -1,4 +1,5 @@
 const startButton = document.getElementById('start-btn');
+const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
@@ -19,6 +20,7 @@ function startGame() {
 }
 
 function setNextQuestion() {
+	resetState();
 	showQuestion(shuffledquestions[currentQuestionIndex]);
 }
 
@@ -36,8 +38,16 @@ function showQuestion(question) {
 	})
 }
 
-function selectAnswer() {
-	console.log("dfsfs");
+function selectAnswer(e) {
+	const selectedButton = e.target;
+	const correct = selectedButton.dataset.correct;
+	setStatusClass(document.body, correct);
+}
+
+function resetState() {
+	nextButton.classList.add('hide');
+	while (answerButtonsElement.firstChild)
+		answerButtonsElement.removeChild(answerButtonsElement.firstChild);
 }
 
 const questions = [
@@ -51,21 +61,21 @@ const questions = [
 		]
 	},
 	{
-		questionText: 'What is your gender?',
+		questionText: 'Best tennis player?',
 		answers: [
-			{text: 'male', correct: false},
-			{text: 'male', correct: false},
-			{text: 'female', correct: true},
-			{text: 'male', correct: false}	
+			{text: 'Federer', correct: false},
+			{text: 'Nadal', correct: false},
+			{text: 'Djokovic', correct: true},
+			{text: 'Thiem', correct: false}	
 		]
 	},
 	{
-		questionText: 'What is ?',
+		questionText: 'Favourite animal?',
 		answers: [
-			{text: 'male', correct: false},
-			{text: 'male', correct: false},
-			{text: 'female', correct: true},
-			{text: 'male', correct: false}	
+			{text: 'giraffe', correct: false},
+			{text: 'lion', correct: false},
+			{text: 'cat', correct: true},
+			{text: 'dog', correct: false}	
 		]
 	}
 ]
