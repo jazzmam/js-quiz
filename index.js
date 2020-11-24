@@ -1,17 +1,29 @@
 const startButton = document.getElementById('start-btn');
-const questionContainer = document.getElementById('question-container');
+const questionContainerElement = document.getElementById('question-container');
+const questionElement = document.getElementById('question');
+const answerButtonsElement = document.getElementById('answer-buttons');
+
+let shuffledquestions, currentQuestionIndex;
+
+
 
 startButton.addEventListener('click', startGame);
 
 
 function startGame() {
 	startButton.classList.add('hide');
-	questionContainer.classList.remove('hide');
+	shuffledquestions = questions.sort(() => Math.random() - .5);
+	currentQuestionIndex = 0;
+	questionContainerElement.classList.remove('hide');
 	setNextQuestion();
 }
 
 function setNextQuestion() {
-	
+	showQuestion(shuffledquestions[currentQuestionIndex]);
+}
+
+function showQuestion(question) {
+	questionElement.innerText = question.questionText;
 }
 
 function selectAnswer() {
@@ -20,7 +32,7 @@ function selectAnswer() {
 
 const questions = [
 	{
-		question: 'What is your name?',
+		questionText: 'What is your name?',
 		answers: [
 			{text: 'Ruta', correct: true},
 			{text: 'Laima', correct: false},
@@ -29,7 +41,16 @@ const questions = [
 		]
 	},
 	{
-		question: 'What is your gender?',
+		questionText: 'What is your gender?',
+		answers: [
+			{text: 'male', correct: false},
+			{text: 'male', correct: false},
+			{text: 'female', correct: true},
+			{text: 'male', correct: false}	
+		]
+	},
+	{
+		questionText: 'What is ?',
 		answers: [
 			{text: 'male', correct: false},
 			{text: 'male', correct: false},
