@@ -11,14 +11,15 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-family: 'Raleway', sans-serif;
-}
-
-.correct {
 	background-color: #F4F1DE;
 }
 
+.correct {
+	background-color: #81B29A;
+}
+
 .wrong {
-	background-color: #F2CC8F;
+	background-color: #E07A5F;
 }
 
 .container {
@@ -49,14 +50,6 @@ body {
 
 	&:hover {
 		border-color: #fff;
-	}
-
-	.correct {
-		background-color: #F4F1DE;
-	}
-
-	.wrong {
-		background-color: #F2CC8F;
 	}
 }
 
