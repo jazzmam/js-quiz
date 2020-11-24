@@ -20,12 +20,10 @@ body {
 	&.correct {
 		background-color: $correct-color;
 	}
-}
 
-
-
-.wrong {
-	background-color: $wrong-color;
+	&.wrong {
+		background-color: $wrong-color;
+	}
 }
 
 .container {
@@ -56,6 +54,14 @@ body {
 
 	&:hover {
 		border-color: #fff;
+	}
+
+	&.correct {
+		background-color: $correct-color;
+	}
+
+	&.wrong {
+		background-color: $wrong-color;
 	}
 }
 

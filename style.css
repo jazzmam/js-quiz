@@ -16,8 +16,7 @@ body {
 body.correct {
   background-color: #81B29A;
 }
-
-.wrong {
+body.wrong {
   background-color: #E07A5F;
 }
 
@@ -49,6 +48,12 @@ body.correct {
 }
 .btn:hover {
   border-color: #fff;
+}
+.btn.correct {
+  background-color: #81B29A;
+}
+.btn.wrong {
+  background-color: #E07A5F;
 }
 
 .start-btn, .next-btn {
