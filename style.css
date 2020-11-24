@@ -55,6 +55,9 @@ body.wrong {
 .btn:hover {
   border-color: #fff;
 }
+.btn:focus {
+  outline: none;
+}
 .btn.correct {
   background-color: #9e54bd;
 }

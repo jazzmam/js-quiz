@@ -3,6 +3,7 @@ const nextButton = document.getElementById('next-btn');
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
+const answerExplanationElement = document.getElementById('answer-explanation');
 
 let shuffledquestions, currentQuestionIndex;
 
@@ -31,10 +32,12 @@ function resetState() {
 	nextButton.classList.add('hide');
 	while (answerButtonsElement.firstChild)
 		answerButtonsElement.removeChild(answerButtonsElement.firstChild);
+	answerExplanationElement.classList.add('hide');
 }
 
 function showQuestion(question) {
 	questionElement.innerText = question.questionText;
+	answerExplanationElement.innerText = question.explanation;
 	question.answers.forEach(answer => {
 		const button = document.createElement('button');
 		button.innerText = answer.text;
@@ -61,6 +64,7 @@ function selectAnswer(e) {
 		startButton.innerText = 'Restart';
 		startButton.classList.remove('hide');
 	}
+	answerExplanationElement.classList.remove('hide');
 }
 
 function setStatusClass(element, correct) {
@@ -85,7 +89,8 @@ const questions = [
 			{text: 'Laima', correct: false},
 			{text: 'Luka', correct: false},
 			{text: 'Sima', correct: false}
-		]
+		],
+		explanation: 'name explanation text here'
 	},
 	{
 		questionText: 'Best tennis player?',
@@ -94,7 +99,8 @@ const questions = [
 			{text: 'Nadal', correct: false},
 			{text: 'Djokovic', correct: true},
 			{text: 'Thiem', correct: false}	
-		]
+		],
+		explanation: 'player explanation text here'
 	},
 	{
 		questionText: 'Favourite animal?',
@@ -103,6 +109,7 @@ const questions = [
 			{text: 'lion', correct: false},
 			{text: 'cat', correct: true},
 			{text: 'dog', correct: false}	
-		]
+		],
+		explanation: 'animal explanation text here'
 	}
 ]
