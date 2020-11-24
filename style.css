@@ -13,8 +13,7 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: #F4F1DE;
 }
-
-.correct {
+body.correct {
   background-color: #81B29A;
 }
 
