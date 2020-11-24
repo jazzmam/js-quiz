@@ -83,33 +83,23 @@ function clearStatusClass(element) {
 
 const questions = [
 	{
-		questionText: 'What is your name?',
+		questionText: 'Which city is considered the birthplace of jazz?',
 		answers: [
-			{text: 'Ruta', correct: true},
-			{text: 'Laima', correct: false},
-			{text: 'Luka', correct: false},
-			{text: 'Sima', correct: false}
+			{text: 'Chicago', correct: false},
+			{text: 'New York City', correct: false},
+			{text: 'Kansas City', correct: false},
+			{text: ' New Orleans', correct: true}
 		],
-		explanation: 'name explanation text here'
+		explanation: 'Jazz is a byproduct of the unique cultural environment found in New Orleans at the late 19th and early 20th centuries, with the vestiges of French and Spanish colonial roots, the legacy of African influences after the slavery era and the influx of immigrants from Europe. The ways these cultures mingled, collided and evolved together in the Crescent City produced America’s most distinctive musical style.'
 	},
 	{
-		questionText: 'Best tennis player?',
+		questionText: 'Which Jazz branch represented a significant transformation in jazz’s history making jazz not only a dancing music but also music only for listening?',
 		answers: [
-			{text: 'Federer', correct: false},
-			{text: 'Nadal', correct: false},
-			{text: 'Djokovic', correct: true},
-			{text: 'Thiem', correct: false}	
+			{text: 'Cool Jazz', correct: false},
+			{text: 'Bebop', correct: true},
+			{text: 'Free Jazz', correct: false},
+			{text: 'Gypsy jazz', correct: false}	
 		],
-		explanation: 'player explanation text here'
-	},
-	{
-		questionText: 'Favourite animal?',
-		answers: [
-			{text: 'giraffe', correct: false},
-			{text: 'lion', correct: false},
-			{text: 'cat', correct: true},
-			{text: 'dog', correct: false}	
-		],
-		explanation: 'animal explanation text here'
+		explanation: 'Bebop developed as the younger generation of jazz musicians expanded the creative possibilities of jazz beyond the popular, dance-oriented swing style. It that was not as danceable and demanded close listening. As bebop was not intended for dancing, it enabled the musicians to play at faster tempos.'
 	}
 ]
