@@ -14,7 +14,7 @@ body {
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 	background-color: $nuetral-color;
 
 	&.correct {
@@ -50,7 +50,7 @@ body {
 	padding: 5px 10px;
 	margin: 5px;
 	box-shadow: 0 0 30px 2px rgba(0,0,0,0.1);
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 
 	&:hover {
 		border-color: #fff;
