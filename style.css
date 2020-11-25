@@ -29,7 +29,14 @@ body {
 .container header h1 {
   font-weight: 300;
 }
+.container header span {
+  display: block;
+  font-size: 60%;
+  opacity: 0.5;
+  padding: 0 0 0.6em 0.1em;
+}
 .container section {
+  margin: 0 auto;
   padding: 5em 6em;
   color: #fff;
 }
@@ -53,7 +60,7 @@ body {
   background-color: inherit;
   color: inherit;
   padding: 25px 35px;
-  margin: 15px 10px;
+  margin: 15px 60px;
   border: 3px solid #fff;
   font-family: inherit;
   font-size: inherit;
