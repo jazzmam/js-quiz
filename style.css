@@ -21,7 +21,7 @@ body.wrong {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   background-color: #0e83cd;
   border-radius: 5px;
   padding: 20px;
