@@ -13,22 +13,22 @@ body {
   font-family: "Lato", Calibri, Arial, sans-serif;
   background-color: #fff;
 }
-body.correct {
-  background-color: #7766C3;
-}
-body.wrong {
-  background-color: #DCED31;
-}
 
 .container {
   width: 100%;
-  background-color: #363537;
-  border-radius: 5px;
-  padding: 20px;
+  background-color: pink;
   font-weight: 700;
   font-size: 1em;
   box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.2);
   color: #fff;
+}
+
+.question-container {
+  background-color: #363537;
+}
+
+.controls-container {
+  background-color: #709fb0;
 }
 
 .btn-grid {
@@ -62,7 +62,7 @@ body.wrong {
   background-color: #7766C3;
 }
 .btn.wrong {
-  background-color: #DCED31;
+  background-color: #709fb0;
 }
 
 .start-btn, .next-btn {

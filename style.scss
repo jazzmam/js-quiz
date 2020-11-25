@@ -4,7 +4,7 @@
 
 $nuetral-color: #fff;
 $correct-color: #7766C3;
-$wrong-color: #DCED31;
+$wrong-color: #709fb0;
 
 body {
 	padding: 0;
@@ -16,25 +16,23 @@ body {
 	align-items: center;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	background-color: $nuetral-color;
-
-	&.correct {
-		background-color: $correct-color;
-	}
-
-	&.wrong {
-		background-color: $wrong-color;
-	}
 }
 
 .container {
 	width: 100%;
-	background-color: #363537;
-	border-radius: 5px;
-	padding: 20px;
+	background-color: pink;
 	font-weight: 700;
 	font-size: 1em;
 	box-shadow: 0 0 30px 2px rgba(0,0,0,0.2);
 	color: #fff;
+}
+
+.question-container {
+	background-color: #363537;
+}
+
+.controls-container {
+	background-color: #709fb0;
 }
 
 .btn-grid {
