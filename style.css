@@ -36,6 +36,7 @@ body {
   padding: 0 0 0.6em 0.1em;
 }
 .container section {
+  text-align: center;
   margin: 0 auto;
   padding: 2em 6em;
   color: #fff;
@@ -53,7 +54,8 @@ body {
   background-color: inherit;
   color: inherit;
   padding: 25px 35px;
-  margin: 15px 120px;
+  margin: 15px 50px;
+  min-width: 230px;
   border: 3px solid #fff;
   font-family: inherit;
   font-size: inherit;
@@ -76,16 +78,18 @@ body {
   background-color: #709fb0;
 }
 
-.start-btn {
-  background-color: #E4323D;
+.start-btn, .next-btn {
+  min-width: 170px;
   font-size: inherit;
   font-weight: inherit;
 }
 
+.start-btn {
+  background-color: #E4323D;
+}
+
 .next-btn {
   background-color: #c9cc27;
-  font-size: inherit;
-  font-weight: inherit;
 }
 
 .controls {
