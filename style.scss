@@ -96,8 +96,14 @@ body {
 	}
 }
 
-.start-btn, .next-btn {
+.start-btn {
 	background-color: #E4323D;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+.next-btn {
+	background-color: #c9cc27;
 	font-size: inherit;
 	font-weight: inherit;
 }
