@@ -22,9 +22,11 @@ body {
   font-size: 1em;
   box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.2);
   color: #89867e;
+  letter-spacing: 1px;
 }
 .container header {
   text-align: center;
+  margin: 20px auto;
 }
 .container header h1 {
   font-weight: 300;
@@ -45,8 +47,12 @@ body {
 .question-container {
   background-color: #363537;
 }
+.question-container .question {
+  margin: 10px auto 30px auto;
+}
 
 .controls-container {
+  height: 100%;
   background-color: #709fb0;
 }
 
