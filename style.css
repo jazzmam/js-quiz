@@ -6,7 +6,6 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  width: 100vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
@@ -48,7 +47,7 @@ body {
   background-color: #363537;
 }
 .question-container .question {
-  margin: 10px auto 30px auto;
+  margin: 10px auto 30px;
 }
 
 .controls-container {
