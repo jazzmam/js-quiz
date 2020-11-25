@@ -10,16 +10,27 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  font-family: "Lato", Calibri, Arial, sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: #fff;
 }
 
 .container {
+  position: relative;
+  height: 100%;
   width: 100%;
-  background-color: pink;
-  font-weight: 700;
+  background-color: #fff;
   font-size: 1em;
   box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.2);
+  color: #89867e;
+}
+.container header {
+  text-align: center;
+}
+.container header h1 {
+  font-weight: 300;
+}
+.container section {
+  padding: 5em 6em;
   color: #fff;
 }
 

@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet"></link>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet"></link>
 		<script defer src="index.js"></script>
 		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <title>Js Quiz</title>
+		<title>Jazz Quiz</title>
 </head>
 <body>
-    <div class="container">
-			<div id="question-container" class="question-container hide">
+		<div class="container">
+			<header>
+				<h1>
+					Jazz Quiz
+				</h1>
+			</header>
+			<section id="question-container" class="question-container hide">
 				<div id="question"></div>
 				<div id="answer-buttons" class="btn-grid">
 						<button class="btn">Answer 1</button>
 						<button class="btn">Answer 2</button>
 				</div>
-			</div>
-			<div class="controls-container">
+			</section>
+			<section class="controls-container">
 				<div id="answer-explanation" class="hide">Answer explanation</div>
 				<div class="controls">
 						<button id="start-btn" class="btn start-btn">Start</button>
 						<button id="next-btn" class="btn next-btn hide">Next</button>
 				</div>
-			</div>
-    </div>
-
+			</section>
+		</div>
 </body>
 </html>
