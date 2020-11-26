@@ -4,7 +4,9 @@ const containerElement = document.getElementById('container');
 const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
+const controlsContainerElement = document.getElementById('controls-container');
 const answerExplanationElement = document.getElementById('answer-explanation');
+
 
 let shuffledquestions, currentQuestionIndex;
 
@@ -40,6 +42,7 @@ function resetState() {
 function showQuestion(question) {
 	questionElement.innerText = question.questionText;
 	answerExplanationElement.innerText = question.explanation;
+	controlsContainerElement.classList.add('hide');
 	question.answers.forEach(answer => {
 		const button = document.createElement('button');
 		button.innerText = answer.text;
@@ -65,6 +68,7 @@ function selectAnswer(e) {
 		startButton.innerText = 'Restart';
 		startButton.classList.remove('hide');
 	}
+	controlsContainerElement.classList.remove('hide');
 	answerExplanationElement.classList.remove('hide');
 }
 
