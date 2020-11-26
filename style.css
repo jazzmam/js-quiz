@@ -10,7 +10,7 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
+  position: relative;
   align-items: center;
   font-family: "Roboto", sans-serif;
   background-color: #fff;
@@ -25,19 +25,18 @@ body {
 }
 .container header {
   text-align: center;
-  margin: 2.2em auto;
   font-family: "Vampiro One", cursive;
 }
 .container header h1 {
   font-weight: 300;
-  font-size: 2.5em;
+  font-size: 3.5em;
   letter-spacing: 0.05em;
 }
 .container header span {
   display: block;
-  font-size: 45%;
+  font-size: 0.3em;
   opacity: 0.5;
-  margin: 0.6em 0 0 0;
+  margin: 0.7em 0 0 0;
   letter-spacing: 0.2em;
 }
 .container section {
