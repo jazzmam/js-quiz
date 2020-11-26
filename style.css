@@ -48,6 +48,13 @@ body {
   letter-spacing: inherit;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .question-container {
   background-color: #363537;
 }

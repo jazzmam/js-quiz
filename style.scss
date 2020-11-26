@@ -29,8 +29,6 @@ body {
 	letter-spacing: 0.03em;
 
 	header {
-		//position: fixed;
-    	//top: 0;
 		text-align: center;
 		font-family: 'Vampiro One', cursive;
 		color: $tertiary-color;
@@ -57,6 +55,13 @@ body {
 		color: $primary-color;
 		letter-spacing: inherit;
 	}
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .question-container {
