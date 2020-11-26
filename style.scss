@@ -1,25 +1,26 @@
+$nuetral-color: #fff;
+$correct-color: #7766C3;
+$wrong-color: #709fb0;
+
 *::before, *::after {
 	box-sizing: border-box;
 }
 
-$nuetral-color: #fff;
-$correct-color: #7766C3;
-$wrong-color: #709fb0;
+html, body {
+	height: 100%;
+}
 
 body {
 	padding: 0;
 	margin: 0;
 	display: flex;
-	height: 100vh;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Permanent Marker', cursive;
 	background-color: $nuetral-color;
 }
 
 .container {
-  position: relative;
-	height: 100%;
 	width: 100%;
 	background-color: #fff;
 	font-size: 100%; // 16px in Chrome
@@ -44,7 +45,7 @@ body {
 	
 	section {
 		text-align: center;
-		margin: 0 auto;
+		//margin: 0 auto;
     	padding: 2em 6em;
 		color: #fff;
 		letter-spacing: inherit;
@@ -65,7 +66,7 @@ body {
 	min-width: 14em;
 	padding: 1.2em 2.2em;
 	margin: 1em 3em;
-	border: 3px solid #fff;	
+	border: 0.2em solid #fff;	
 	font-family: inherit;
 	font-size: 1em;
 	font-weight: inherit;
@@ -87,7 +88,7 @@ body {
 		background-color: $wrong-color;
 	}
 
- 	// animation
+ 	// button animation
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
@@ -117,7 +118,6 @@ body {
 }
 
 .controls-container {
-	height: 100%; // TO CHANGEEE
 	background-color: #709fb0;
 }
 
