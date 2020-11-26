@@ -112,7 +112,7 @@ const questions = [
 			{text: 'Drums', correct: false},
 			{text: 'Saxophone', correct: true},
 			{text: 'Piano', correct: false},
-			{text: 'Double bass', correct: false}	
+			{text: 'Bass', correct: false}	
 		],
 		explanation: 'A jazz trio is a group of three jazz musicians, often a piano trio comprising a pianist, a double bass player and a drummer. The pianist is usually considered the leader of these trios, and trios are usually named after their pianist.'
 	},
@@ -167,43 +167,43 @@ const questions = [
 		explanation: 'During the Great Depression, his mother often supplied Sinatra with money to buy expensive clothes. For this, people often described him as the “best-dressed kid in the neighborhood.” Throughout his life, Sinatra would continue to be known for his impeccable sense of style.'
 	},
 	{
-		questionText: '',
+		questionText: 'One of the most important figures in twentieth century American music, a virtuoso bass player, accomplished pianist, bandleader and composer.',
 		answers: [
-			{text: '', correct: false},
-			{text: '', correct: false},
-			{text: '', correct: false},
-			{text: '', correct: true}	
+			{text: 'Frank Sinatra', correct: false},
+			{text: 'John Coltrane', correct: false},
+			{text: 'Charles Mingus', correct: true},
+			{text: 'Miles Davis', correct: false}	
 		],
-		explanation: ''
+		explanation: 'His earliest musical influences came from the church-- choir and group singing-- and from "hearing Duke Ellington over the radio when [he] was eight years old." He studied double bass and composition in a formal way while absorbing vernacular music from the great jazz masters, first-hand.'
 	},
 	{
-		questionText: '',
+		questionText: 'Which instrument in jazz functions as the bridge between rhythm and harmony—providing a strong beat and the root notes of the chords?',
 		answers: [
-			{text: '', correct: false},
-			{text: '', correct: false},
-			{text: '', correct: false},
-			{text: '', correct: true}	
+			{text: 'Trombone', correct: false},
+			{text: 'Drums', correct: false},
+			{text: 'Bass', correct: true},
+			{text: 'Trumpet', correct: false}	
 		],
-		explanation: ''
+		explanation: 'In jazz, bass is typically used for “comping” or accompanying other instruments, and sometimes for solos. From the 1920s and 1930s swing and big band era, through bebop and hard nop, to the 1960s-era “free jazz” movement, the resonant, woody sound of the double bass anchored everything from small jazz combos to large jazz groups. Electric bass began to emerge in the 1950s, and became especially popular during the jazz-rock fusion era of the 1970s.'
 	},
 	{
-		questionText: '',
+		questionText: 'Which instrument is an important tool of jazz musicians and composers for teaching and learning jazz theory?',
 		answers: [
-			{text: '', correct: false},
-			{text: '', correct: false},
-			{text: '', correct: false},
-			{text: '', correct: true}	
+			{text: 'Banjo', correct: false},
+			{text: 'Bass', correct: false},
+			{text: 'Saxophone', correct: false},
+			{text: 'Piano', correct: true}	
 		],
-		explanation: ''
+		explanation: 'The piano has been an integral part of the jazz idiom since its inception, in both solo and ensemble settings. Its role is multifaceted due largely to the instrument\'s combined melodic and harmonic capabilities. For this reason it is an important tool of jazz musicians and composers for teaching and learning jazz theory and set arrangement, regardless of their main instrument.'
 	},
 	{
-		questionText: '',
+		questionText: 'How is a stringed instrument with a circular membrane stretched over a frame form a resonator used in Jazz is called?',
 		answers: [
-			{text: '', correct: false},
-			{text: '', correct: false},
-			{text: '', correct: false},
-			{text: '', correct: true}	
+			{text: 'Guitar', correct: false},
+			{text: 'Banjo', correct: true},
+			{text: 'Bass', correct: false},
+			{text: 'Ukulele', correct: false}	
 		],
-		explanation: ''
+		explanation: 'When you listen to a number of early Jazz recordings of the late 1910s and the early-to-mid 1920s, you don\'t hear a rhythm guitar; rather, you hear a banjo. The banjo, often in counterpoint with a tuba\'s bass lines, provided a high amount of volume in bands, and could be picked up by early recording technology.'
 	}
 ]
