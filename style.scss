@@ -27,6 +27,7 @@ body {
 	font-size: 100%; // 16px in Chrome
 	color: #89867e;
 	letter-spacing: 0.03em;
+	margin-top: -100px;
 
 	header {
 		text-align: center;
@@ -62,6 +63,7 @@ body {
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
+	margin-top: -20px;
 }
 
 .question-container {
