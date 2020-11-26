@@ -16,7 +16,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Roboto', sans-serif;
 	background-color: $nuetral-color;
 }
 
@@ -25,27 +25,30 @@ body {
 	background-color: #fff;
 	font-size: 100%; // 16px in Chrome
 	color: #89867e;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.03em;
 
 	header {
 		text-align: center;
 		margin: 2.2em auto;
+		font-family: 'Vampiro One', cursive;
 
 		h1 {
 			font-weight: 300;
+			font-size: 2.5em;
+			letter-spacing: 0.05em;
 		}
 
 		span {
 			display: block;
-			font-size: 60%;
+			font-size: 45%;
 			opacity: 0.5;
 			margin: 0.6em 0 0 0;
+			letter-spacing: 0.2em;
 		}
 	}
 	
 	section {
 		text-align: center;
-		//margin: 0 auto;
     	padding: 2em 6em;
 		color: #fff;
 		letter-spacing: inherit;
