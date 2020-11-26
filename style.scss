@@ -38,6 +38,13 @@ body {
 			font-weight: 300;
 			font-size: 3.5em;
 			letter-spacing: 0.05em;
+
+			// ANIMATION
+
+			&:hover {
+				color: $quaternary-color;
+				transition: color 0.4s ease-in-out;
+			}
 		}
 
 		span {
@@ -47,7 +54,7 @@ body {
 			opacity: 0.5;
 			margin: 0.7em 0 0 0;
 			letter-spacing: 0.2em;
-		}
+		}	
 	}
 	
 	section {

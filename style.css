@@ -34,6 +34,10 @@ body {
   font-size: 3.5em;
   letter-spacing: 0.05em;
 }
+.container header h1:hover {
+  color: #7766C3;
+  transition: color 0.4s ease-in-out;
+}
 .container header span {
   display: block;
   font-size: 0.3em;
