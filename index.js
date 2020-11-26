@@ -5,6 +5,7 @@ const questionContainerElement = document.getElementById('question-container');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
 const controlsContainerElement = document.getElementById('controls-container');
+const resultContainerElement = document.getElementById('result-container');
 const answerExplanationElement = document.getElementById('answer-explanation');
 
 
@@ -56,8 +57,6 @@ function showQuestion(question) {
 }
 
 function selectAnswer(e) {
-	const selectedButton = e.target;
-	const correct = selectedButton.dataset.correct;
 	Array.from(answerButtonsElement.children).forEach(button => {
 		setStatusClass(button, button.dataset.correct)
 	})
