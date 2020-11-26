@@ -1,6 +1,7 @@
-$nuetral-color: #fff;
-$correct-color: #7766C3;
-$wrong-color: #709fb0;
+$primary-color: #fff;
+$secondary-color: #709fb0;
+$tertiary-color: #E4323D;
+$quaternary-color: #7766C3;
 
 *::before, *::after {
 	box-sizing: border-box;
@@ -17,12 +18,12 @@ body {
 	position: relative;
 	align-items: center;
 	font-family: 'Roboto', sans-serif;
-	background-color: $nuetral-color;
+	background-color: $primary-color;
 }
 
 .container {
 	width: 100%;
-	background-color: #fff;
+	background-color: $primary-color;
 	font-size: 100%; // 16px in Chrome
 	color: #89867e;
 	letter-spacing: 0.03em;
@@ -32,6 +33,7 @@ body {
     	//top: 0;
 		text-align: center;
 		font-family: 'Vampiro One', cursive;
+		color: $tertiary-color;
 
 		h1 {
 			font-weight: 300;
@@ -42,6 +44,7 @@ body {
 		span {
 			display: block;
 			font-size: 0.3em;
+			color: $secondary-color;
 			opacity: 0.5;
 			margin: 0.7em 0 0 0;
 			letter-spacing: 0.2em;
@@ -51,7 +54,7 @@ body {
 	section {
 		text-align: center;
     	padding: 2em 6em;
-		color: #fff;
+		color: $primary-color;
 		letter-spacing: inherit;
 	}
 }
@@ -70,7 +73,7 @@ body {
 	min-width: 14em;
 	padding: 1.2em 2.2em;
 	margin: 1em 3em;
-	border: 0.2em solid #fff;	
+	border: 0.2em solid $primary-color;	
 	font-family: inherit;
 	font-size: 1em;
 	font-weight: inherit;
@@ -85,11 +88,11 @@ body {
 	}
 
 	&.correct {
-		background-color: $correct-color;
+		background-color: $quaternary-color;
 	}
 
 	&.wrong {
-		background-color: $wrong-color;
+		background-color: $secondary-color;
 	}
 
  	// button animation
@@ -113,7 +116,6 @@ body {
 	z-index: -1;
 	-webkit-transition: width 150ms ease-in-out;
 	transition: width 150ms ease-in-out;
-	color: blue;
 	}
 
 	&:hover:after {
@@ -138,7 +140,7 @@ body {
 }
 
 .start-btn {
-	background-color: #E4323D;
+	background-color: $tertiary-color;
 }
 
 .next-btn {

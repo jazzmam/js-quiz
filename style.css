@@ -26,6 +26,7 @@ body {
 .container header {
   text-align: center;
   font-family: "Vampiro One", cursive;
+  color: #E4323D;
 }
 .container header h1 {
   font-weight: 300;
@@ -35,6 +36,7 @@ body {
 .container header span {
   display: block;
   font-size: 0.3em;
+  color: #709fb0;
   opacity: 0.5;
   margin: 0.7em 0 0 0;
   letter-spacing: 0.2em;
@@ -96,7 +98,6 @@ body {
   z-index: -1;
   -webkit-transition: width 150ms ease-in-out;
   transition: width 150ms ease-in-out;
-  color: blue;
 }
 .btn:hover:after {
   width: 110%;
